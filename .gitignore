@@ -5,9 +5,12 @@ print_list.c
 1-main.c
 2-main.c
 3-main.c
-
+100-main.c
+101-main.c
 
 bubble
 insertion
 select
 quick
+shell
+cocktail

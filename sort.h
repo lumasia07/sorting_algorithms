@@ -2,6 +2,7 @@
 #define SORT_H
 
 #include <stdlib.h>
+#include <stdbool.h>
 
 /**
  * struct listint_s - Doubly linked list node
@@ -31,6 +32,12 @@ void lomuto_recursive_sort(int *array, size_t size, int left, int right);
 
 void shell_sort(int *array, size_t size);
 void cocktail_sort_list(listint_t **list);
+
+void swap_node_next(listint_t **head, listint_t **tail, listint_t **shuttle);
+void swap_node_prev(listint_t **head, listint_t **tail, listint_t **shuttle);
+void cocktail_sort_list(listint_t **list);
+
+
 
 
 #endif
