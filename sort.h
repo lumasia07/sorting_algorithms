@@ -29,5 +29,7 @@ void swap_me(int *x, int *y);
 int lomuto_algo(int *array, size_t size, int left, int right);
 void lomuto_recursive_sort(int *array, size_t size, int left, int right);
 
+void shell_sort(int *array, size_t size);
+
 
 #endif
