@@ -24,5 +24,10 @@ void bubble_sort(int *array, size_t size);
 void insertion_sort_list(listint_t **list);
 void selection_sort(int *array, size_t size);
 
+void quick_sort(int *array, size_t size);
+void swap_me(int *x, int *y);
+int lomuto_algo(int *array, size_t size, int left, int right);
+void lomuto_recursive_sort(int *array, size_t size, int left, int right);
+
 
 #endif
