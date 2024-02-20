@@ -8,6 +8,7 @@ print_list.c
 100-main.c
 101-main.c
 102-main.c
+103-main.c
 
 bubble
 insertion
@@ -16,3 +17,4 @@ quick
 shell
 cocktail
 counting
+merge

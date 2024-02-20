@@ -40,6 +40,9 @@ void cocktail_sort_list(listint_t **list);
 void counting_sort(int *array, size_t size);
 int get_max_val(int *array, int size);
 
+void merge_me(int *array, int *left, int size_left, int *right, int size_right);
+void merge_sort(int *array, size_t size);
+
 
 
 #endif
