@@ -37,6 +37,7 @@ void swap_node_next(listint_t **head, listint_t **tail, listint_t **shuttle);
 void swap_node_prev(listint_t **head, listint_t **tail, listint_t **shuttle);
 void cocktail_sort_list(listint_t **list);
 
+void counting_sort(int *array, size_t size);
 
 
 
