@@ -24,13 +24,14 @@ void merge_sort(int *array, size_t size)
 	merge_sort(left, size_left);
 	merge_sort(right, size_right);
 
-	merge_me(array, left, size_left, right, size_right);
-
 	printf("Merging...\n");
 	printf("[left]: ");
 	print_array(left, size_left);
 	printf("[right]: ");
 	print_array(right, size_right);
+
+	merge_me(array, left, size_left, right, size_right);
+	
 	printf("[Done]: ");
 	print_array(array, size);
 }
